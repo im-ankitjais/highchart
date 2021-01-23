@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "highcharts": "8.2.2",
+    "highcharts-border-radius": "^0.0.4",
     "react": "17.0.1",
     "react-dom": "17.0.1"
   },
@@ -21,7 +22,12 @@
   "eslintConfig": {
     "extends": "react-app"
   },
-  "browserslist": [">0.2%", "not dead", "not ie > 0", "not op_mini all"],
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie > 0",
+    "not op_mini all"
+  ],
   "prettier": {
     "singleQuote": true,
     "trailingComma": "es5"
